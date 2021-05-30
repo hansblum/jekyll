@@ -1,7 +1,7 @@
 FROM jekyll/jekyll:4.2.0
 
-COPY sites/ /srv/jekyll/sites/
-COPY themes/ /srv/jekyll/themes/
+COPY --chown=jekyll:jekyll sites/ /srv/jekyll/sites/
+COPY --chown=jekyll:jekyll themes/ /srv/jekyll/themes/
 
 EXPOSE 4000
 
