@@ -1,4 +1,5 @@
 FROM jekyll/jekyll:4.2.0
 
-RUN jekyll -v
+COPY sites/ /srv/jekyll/sites/
+COPY themes/ /srv/jekyll/themes/
 
