@@ -6,4 +6,5 @@ COPY themes/ /srv/jekyll/themes/
 EXPOSE 4000
 
 WORKDIR /srv/jekyll/sites/donald
+RUN jekyll build
 
