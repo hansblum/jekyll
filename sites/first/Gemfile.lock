@@ -1,3 +1,9 @@
+PATH
+  remote: /home/hans/workspaces/hansblum/jekyll/themes/robinhood
+  specs:
+    robinhood (0.1.0)
+      jekyll (~> 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,6 +79,7 @@ DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  robinhood!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

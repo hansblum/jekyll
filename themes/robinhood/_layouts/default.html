@@ -1,1 +1,29 @@
-{{ content }}
+<!doctype html>
+<html>
+  <head>
+      <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  </head>
+  <body>
+    <header>
+      <div class="left"></div>
+      <span role="logo" aria-label="ABN AMRO Logo" class="em-brand logo"></span>
+      <div class="right"></div>
+    </header>
+    <section class="nav">
+
+      <nav><div class="left"></div><div class="center">{% include navigation.html %}</div><div class="right"></div></nav>
+
+    </section>
+    <main>
+      <aside>
+        ABCDE
+      </aside>
+      <section class="content">
+        FGHIJ
+      {{ content }}
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

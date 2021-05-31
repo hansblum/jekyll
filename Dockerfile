@@ -5,6 +5,6 @@ COPY --chown=jekyll:jekyll themes/ /srv/jekyll/themes/
 
 EXPOSE 4000
 
-WORKDIR /srv/jekyll/sites/donald
+WORKDIR /srv/jekyll/sites/first
 RUN jekyll build
 
