@@ -1,6 +1,7 @@
 ---
 title: Beowulf
 layout: page
+nav: sidebar
 ---
 
 *** START OF THE PROJECT GUTENBERG EBOOK BEOWULF ***

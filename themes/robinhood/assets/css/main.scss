@@ -1,6 +1,7 @@
 ---
 # This is a main, because it has frontmatter
 ---
+@import url('http://fonts.cdnfonts.com/css/roboto');
 
 .em-brand {
 	height: 44px;
@@ -30,10 +31,54 @@ header {
 }
 
 body {
+	font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
 
 html {
   margin-left-width: 0;
   margin-right-width: 0;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.page-navigation {
+  padding-left: 0;
+  color: white;
+}
+
+.page-navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+.page-navigation li:last-of-type::after {
+  content: '';
+}
+
+.page-navigation li::after {
+  content: '|';
+  margin: 0 4px;
+}
+
+
+a.page-link, a.page-link:hover, a.page-link:active, a.page-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-navigation {
+  padding: inherit 0;
+}
+
+.sidebar-navigation li {
+  list-style: none;
+}
+.cutout {
+  margin-right: 143px;
 }

@@ -1,7 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Index of the first site
+title: Home
 layout: home
+nav: main
 ---
 This is the first site.

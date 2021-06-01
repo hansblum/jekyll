@@ -5,21 +5,26 @@
   </head>
   <body>
     <header>
-      <div class="left"></div>
-      <span role="logo" aria-label="ABN AMRO Logo" class="em-brand logo"></span>
-      <div class="right"></div>
+      <div><div role="logo" aria-label="ABN AMRO Logo" class="em-brand logo right"></div></div>
+      <div></div>
+      <div></div>
     </header>
     <section class="nav">
 
-      <nav><div class="left"></div><div class="center">{% include navigation.html %}</div><div class="right"></div></nav>
+      <nav><div class="left">
+        <svg height="16" width="32" class="cutout right">
+          <polygon points="0,0 32,0 16,16" style="fill:white;stroke:none;" />
+          sorry, your browser does not support inline SVG.
+        </svg></div><div class="center">{% include navigation.html %}</div><div class="right"></div></nav>
 
     </section>
     <main>
       <aside>
-        ABCDE
+        <section class="right">
+         {% include sidebar.html %}
+        </section>
       </aside>
       <section class="content">
-        FGHIJ
       {{ content }}
       </section>
     </main>
